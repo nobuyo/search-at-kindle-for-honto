@@ -1,0 +1,5 @@
+.find-in-kindle-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}

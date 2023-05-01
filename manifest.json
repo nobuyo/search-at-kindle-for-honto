@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Search at kindle for honto",
+  "description": "Add link to search the book at kindle (or kindle unlimited).",
+  "version": "0.0.1",
+  "host_permissions": [
+    "https://honto.jp/ebook/**"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://honto.jp/ebook/**"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ]
+}
